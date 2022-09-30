@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="File"
+			fileName="${basePath}/TestExecution.html"
+			filePattern="${basePath}/TestExecution-%d{yyyy-MM-dd-HH-mm}.html"
+			append="false">
+			<HTMLLayout charset="UTF-8" title="Test Execution Logs"
+				locationInfo="true" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern=" %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%-5level]  %logger{36} - [%M] %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="File" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

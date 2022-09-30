@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T05:00:50 IST" name="Suite" finished-at="2022-09-30T05:01:37 IST" duration-ms="46322">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T05:00:50 IST" name="PaymentScenario" finished-at="2022-09-30T05:01:37 IST" duration-ms="46322">
+      <class name="com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:00:50 IST" name="initializeBrowser" finished-at="2022-09-30T05:01:00 IST" duration-ms="9976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="searchForItem(java.lang.String)[pri:1, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:00 IST" name="searchForItem" data-provider="searchData" finished-at="2022-09-30T05:01:06 IST" duration-ms="5890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redmi mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItem -->
+        <test-method signature="searchResult()[pri:2, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:06 IST" name="searchResult" finished-at="2022-09-30T05:01:09 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResult -->
+        <test-method signature="buyNow()[pri:3, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:09 IST" name="buyNow" finished-at="2022-09-30T05:01:21 IST" duration-ms="11578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNow -->
+        <test-method signature="signIn(java.lang.String,java.lang.String)[pri:4, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:21 IST" name="signIn" data-provider="signIn" finished-at="2022-09-30T05:01:23 IST" duration-ms="2844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikashkumarshaw39@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BuyThing4mHere]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="paymentMethod()[pri:5, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:23 IST" name="paymentMethod" finished-at="2022-09-30T05:01:29 IST" duration-ms="5105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentMethod -->
+        <test-method signature="placeYourOrder()[pri:6, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:29 IST" name="placeYourOrder" finished-at="2022-09-30T05:01:35 IST" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeYourOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder@2d0566ba]" started-at="2022-09-30T05:01:35 IST" name="teardown" finished-at="2022-09-30T05:01:37 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.pack.PageObjectFramework.featureTest.AmazonPlaceOrder -->
+    </test> <!-- PaymentScenario -->
+  </suite> <!-- Suite -->
+</testng-results>

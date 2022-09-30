@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.pack.PageObjectFramework.listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="RegisterTest(failed)" verbose="0">
+    <classes>
+      <class name="com.pack.PageObjectFramework.featureTest.RegisterUserTest">
+        <methods>
+          <include name="shutdown"/>
+          <include name="initialize"/>
+          <include name="registerUser"/>
+        </methods>
+      </class> <!-- com.pack.PageObjectFramework.featureTest.RegisterUserTest -->
+    </classes>
+  </test> <!-- RegisterTest(failed) -->
+  <test thread-count="5" parallel="tests" name="HomePageTest(failed)" verbose="0">
+    <classes>
+      <class name="com.pack.PageObjectFramework.featureTest.LandingPageTest">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="initialize"/>
+          <include name="shutdown"/>
+          <include name="popupClose"/>
+        </methods>
+      </class> <!-- com.pack.PageObjectFramework.featureTest.LandingPageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+  <test thread-count="5" parallel="tests" name="LoginTest(failed)" verbose="0">
+    <classes>
+      <class name="com.pack.PageObjectFramework.featureTest.LoginPageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="login"/>
+          <include name="shutdown"/>
+        </methods>
+      </class> <!-- com.pack.PageObjectFramework.featureTest.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
